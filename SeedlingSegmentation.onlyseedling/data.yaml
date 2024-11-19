@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['seedling']
+
+roboflow:
+  workspace: rmedu-bezmx
+  project: seedlingsegmentation
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rmedu-bezmx/seedlingsegmentation/dataset/9
